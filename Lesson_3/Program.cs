@@ -8,7 +8,7 @@ void Palindrome(int uN)
     int number2 = uN / 1000 % 10;
     int number4 = uN / 10 % 10;
     int number5 = uN % 10;
-    if (number1 == number5 || number2 == number4)
+    if (number1 == number5 && number2 == number4)
         Console.Write("да.");
     else Console.Write("нет.");
 }
